@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pro Site</title>
+    <!--this is comment and below ->that's internal css 
+    -->
+    <style>
+        p{
+            color: purple;
+            background-color: aqua;
+        }
+    </style>
+    <!--Now we are going to introduce External css-->
+    <link rel="stylesheet" href="1.External.css">
+    <!--inline css < internal css < external css -->
 </head>
 <body>
     <h1>Protik Acharjay</h1>
+    <p>Emtry character is &#8203;</p>
+    <p style="color: red; background-color: green;">inline css checking</p>
+    <p>internal css checking</p>
+    <!--here, the colore for p is changing for the priority of css types.-->
+    
 </body>
 </html>
