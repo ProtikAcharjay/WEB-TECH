@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protik Consulting Ltd.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    <style>
+        /* CSS reset */
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url("img/scott-graham-5fNmWej4tAA-unsplash.jpg");
+            background-size: 1200px 850px;
+            /* font-family: cursive; */
+            font-family: 'Sedgwick Ave', cursive;
+        }
+
+        .left {
+            /* border: 2px solid black; */
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            /* top: 20px; */
+
+
+        }
+
+        .right {
+            /* border: 2px solid black; */
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+        }
+
+        .mid {
+            /* border: 2px solid black; */
+            display: block;
+            width: 50%;
+            margin: 10px auto;
+
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            padding: 1px 18px;
+            font-size: 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            color: goldenrod;
+            text-decoration: underline;
+        }
+
+        .header {
+            border: 2px solid black;
+            border-radius: 19px;
+            position: fixed;
+            display: inline-block;
+            width: 1160px;
+            background-color: rgb(248, 244, 238);
+        }
+
+        .left img {
+            width: 55px;
+            display: block;
+            margin: auto;
+            padding: 2px 2px;
+
+
+        }
+
+        .left div {
+            text-align: center;
+            /* padding: 2px 2px; */
+            line-height: 19px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: rgb(248, 244, 238);
+
+            padding: 4px 14px;
+            border: 2px solid black;
+            border-radius: 9px;
+            font-size: 15px;
+            cursor: pointer;
+            margin: 5px 8px;
+            /* font-family: cursive; */
+            font-family: 'Sedgwick Ave', cursive;
+        }
+
+        .btn:hover {
+            background-color: antiquewhite;
+            color: gray;
+        }
+        .wlc{
+            border: 2px solid black;
+            border-radius: 18px;
+            margin: 10px 440px;
+            margin-top: 110px;
+            padding: 20px 30px;
+            width: 33%;
+            display: inline-block;
+            font-size: 22px;
+            text-align: center;
+
+        }
+        .form{
+            border: 2px solid black;
+            border-radius: 15px;
+            margin: 0px 44px;
+            padding: 20px 30px;
+            width: 33%;
+            display: inline-block;
+            font-size: 15px;
+            
+            background-color: rgb(248, 244, 238);
+
+        }
+        .form h1{
+            text-align: center;
+        }
+        .form button{
+            display: block;
+            width: 23%;
+            margin: 22px auto;
+        }
+        .formgroup input{
+            display: block;
+            width: 250px;
+            padding: 6px;
+            border: 2px solid black;
+            border-radius: 6px;
+            margin: 3px auto;
+            
+        }
+        .box{
+            border: 2px solid black;
+            border-radius: 18px;
+            margin: 4px 0px;
+            padding: 20px;
+            background-color: rgb(238, 233, 233);
+            display: inline-block;
+            width: 33%;
+            box-sizing: border-box;
+        }
+        .container{
+            margin: auto;
+            width: 1000px;
+            /* padding: 5px 106px; */
+        }
+        h5{
+            font-weight: bolder;
+            text-align: center;
+        }
+        h1{
+            margin: 0;
+            /* font-family:cursive; */
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="img/consultation_512 (1).png" alt="Something went wrong ">
+            <div>Protik Consulting Ltd.</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Consulting Details</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="wlc">
+        Welcome to Protik Consulting Ltd.
+    </div>
+    <div class="form">
+        <h1>Join Our Membership</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Adress">
+            </div>
+            <div class="formgroup">
+                <input type="date" name="" placeholder="Enter Your Date of Birth">
+            </div>
+            
+            <div class="formgroup">
+                <input type="email" name="" placeholder="Enter Your Email">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Phone Number">
+            </div>
+    
+            <button class="btn">SUBMIT</button>
+        </form>
+    </div>
+    <div>
+        <h1>Our Services</h1>
+    </div>
+    <div class="container">
+        <div class="box">
+            
+            <h5>Kopa Kopi</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus, officia quasi unde ullam nam dolore autem repellat suscipit, odit nemo voluptatem, temporibus porro tempora. Suscipit molestias voluptas distinctio, quis amet reiciendis dolorem vel optio sit libero porro neque corporis atque laborum facere perferendis rem voluptatibus excepturi, ipsa fugit impedit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, cumque ipsam.</p>
+        </div>
+        <div class="box">
+            <h5>Bum Bam</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus, officia quasi unde ullam nam dolore autem repellat suscipit, odit nemo voluptatem, temporibus porro tempora. Suscipit molestias voluptas distinctio, quis amet reiciendis dolorem vel optio sit libero porro neque corporis atque laborum facere perferendis rem voluptatibus excepturi, ipsa fugit impedit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, cumque ipsam.</p>
+        </div>
+        <div class="box">
+            <h5>Kubay vaj</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus, officia quasi unde ullam nam dolore autem repellat suscipit, odit nemo voluptatem, temporibus porro tempora. Suscipit molestias voluptas distinctio, quis amet reiciendis dolorem vel optio sit libero porro neque corporis atque laborum facere perferendis rem voluptatibus excepturi, ipsa fugit impedit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, cumque ipsam.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
