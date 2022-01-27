@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=a, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        header{
+            border: 2px solid black;
+            border-radius: 20px;
+            margin: auto;
+            width: 1000px;
+
+            /* width only can used in block elements not in inline elements */
+        }
+        img{
+            width: 120px;
+            border: 2px solid yellow;
+            border-radius: 75%;
+            margin: auto;
+            display: block;
+        }
+        h2{
+            margin: 0;
+            font-family:cursive;
+            text-align: center;
+        }
+        .box{
+            border: 2px solid black;
+            border-radius: 18px;
+            margin: 4px 0px;
+            padding: 20px;
+            background-color: rgb(238, 233, 233);
+            display: inline-block;
+            width: 33%;
+            box-sizing: border-box;
+        }
+        .container{
+            margin: auto;
+            width: 1000px;
+            /* padding: 5px 106px; */
+        }
+        h5{
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <header class="top">
+        <img src="https://media-exp1.licdn.com/dms/image/C5635AQEpgUa2DXsYfw/profile-framedphoto-shrink_400_400/0/1620839158625?e=1643360400&v=beta&t=8UaC6zE92wOdA9REsxtxMH-zKzrIsm7EL_4ouXI8F0s" alt="Something went wrong">
+        <h2>WELCOME TO PROTIK'S WORLD</h2>
+
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <h5>This is heading</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus, officia quasi unde ullam nam dolore autem repellat suscipit, odit nemo voluptatem, temporibus porro tempora. Suscipit molestias voluptas distinctio, quis amet reiciendis dolorem vel optio sit libero porro neque corporis atque laborum facere perferendis rem voluptatibus excepturi, ipsa fugit impedit.</p>
+        </div>
+        <div class="box">
+            <h5>This is heading</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus, officia quasi unde ullam nam dolore autem repellat suscipit, odit nemo voluptatem, temporibus porro tempora. Suscipit molestias voluptas distinctio, quis amet reiciendis dolorem vel optio sit libero porro neque corporis atque laborum facere perferendis rem voluptatibus excepturi, ipsa fugit impedit.</p>
+        </div>
+        <div class="box">
+            <h5>This is heading</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus, officia quasi unde ullam nam dolore autem repellat suscipit, odit nemo voluptatem, temporibus porro tempora. Suscipit molestias voluptas distinctio, quis amet reiciendis dolorem vel optio sit libero porro neque corporis atque laborum facere perferendis rem voluptatibus excepturi, ipsa fugit impedit.</p>
+        </div>
+    </div>
+</body>
+</html>
