@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Quieries </title>
+    <style>
+        .items {
+            font-size: 25px;
+            color: aliceblue;
+            background-color: brown;
+            text-align: center;
+            display: none;
+        }
+
+        @media only screen and (min-width: 800px) and (max-width:1000px) {
+            #item1 {
+                display: block;
+                background-color: blue;
+
+            }
+        }
+        @media only screen and (min-width: 1000px) {
+            #item4 {
+                display: block;
+                background-color: gray;
+
+            }
+        }
+        @media only screen and (min-width: 500px) and (max-width:800px) {
+            #item2 {
+                display: block;
+                background-color: black;
+
+            }
+        }
+        @media only screen and  (max-width:500px) {
+            #item3 {
+                display: block;
+                background-color: red;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+        <div class="items" id="item1">Laptop</div>
+        <div class="items" id="item2">tablet</div>
+        <div class="items" id="item3">mobile</div>
+        <div class="items" id="item4">Big Screen</div>
+
+</body>
+
+</html>
